@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Navigation with Logo -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="/blueimage.png" alt="Your Logo" class="logo-image">
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="signup-box">
+            <!-- Header Image/Illustration -->
+            <div class="header-image">
+                <img src="/api/placeholder/400/200" alt="Header Illustration" class="main-image">
+            </div>
+
+            <header class="header">
+                <h1>Join the newsletter</h1>
+                <p class="subtitle">Subscribe to get our latest content by email.</p>
+            </header>
+
+            <form class="signup-form" id="signupForm">
+                <div class="form-group">
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <button type="submit" class="submit-button">
+                    Subscribe
+                </button>
+
+                <p class="privacy-notice">
+                    We respect your privacy. Unsubscribe at any time.
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
